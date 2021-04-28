@@ -23,7 +23,7 @@
        return "There is no discount to apply."
      else
        @total = @total * (1 - (@discount.to_f / 100.0))
-       "After the discount, the total comes to $#{@total.round(0)}"
+       "After the discount, the total comes to $#{@total.round(0)}."
      end
    end
 
